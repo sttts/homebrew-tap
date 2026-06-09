@@ -1,26 +1,26 @@
 class KubectlDoc < Formula
   desc "Render Kubernetes API documentation"
   homepage "https://github.com/sttts/kubectl-doc"
-  version "0.2.5"
+  version "0.2.6"
   license "Apache-2.0"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/sttts/kubectl-doc/releases/download/v0.2.5/kubectl-doc-v0.2.5-darwin-arm64.tar.gz"
-      sha256 "076fd9460fa1ec2af7f809216482f22091f3460da23784d9c3df255e22a1f875"
+      url "https://github.com/sttts/kubectl-doc/releases/download/v0.2.6/kubectl-doc-v0.2.6-darwin-arm64.tar.gz"
+      sha256 "8022a521a17897dab669ff0528bdb2d7b078f4e334334d265ec970f312cbd522"
     else
-      url "https://github.com/sttts/kubectl-doc/releases/download/v0.2.5/kubectl-doc-v0.2.5-darwin-amd64.tar.gz"
-      sha256 "60df275e4b9169f6ad2e50b5e088fcb226f6f62878a1683e88445ad3e011b5bc"
+      url "https://github.com/sttts/kubectl-doc/releases/download/v0.2.6/kubectl-doc-v0.2.6-darwin-amd64.tar.gz"
+      sha256 "69a8bcc8d1a2f92264269bde919dcb263255d903f4f1d9c4d0cd634615e7d7d8"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/sttts/kubectl-doc/releases/download/v0.2.5/kubectl-doc-v0.2.5-linux-arm64.tar.gz"
-      sha256 "092ec76ffe34f4e4d4593bb3df32e46562e84582bb5570b62c166e0317014d5b"
+      url "https://github.com/sttts/kubectl-doc/releases/download/v0.2.6/kubectl-doc-v0.2.6-linux-arm64.tar.gz"
+      sha256 "7914795c0c9007e547774c2563a4d43359b118c734c79d7bb1b5ec76e86936f0"
     else
-      url "https://github.com/sttts/kubectl-doc/releases/download/v0.2.5/kubectl-doc-v0.2.5-linux-amd64.tar.gz"
-      sha256 "7096be2785e20d306e6182f39a42aeaf5ab387253fd50cfc4577768fb5154cd4"
+      url "https://github.com/sttts/kubectl-doc/releases/download/v0.2.6/kubectl-doc-v0.2.6-linux-amd64.tar.gz"
+      sha256 "2afc015de978a2a2060f350b1292c1dedee39fbf590c0da7e829f7d36a71cf7d"
     end
   end
 
